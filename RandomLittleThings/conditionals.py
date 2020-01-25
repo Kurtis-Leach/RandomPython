@@ -1,3 +1,7 @@
+from helloWorld import helloWorld
+
+print (helloWorld())
+
 def hauntedHouse():
     print ("Welcome to the Haunted House. Where you could die.")
     answer = raw_input("Type Continue(c) or Leave(l) and hit 'Enter'.").lower()
